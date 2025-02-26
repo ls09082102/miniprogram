@@ -1,0 +1,56 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/wealth/wealth",
+    "pages/life/life",
+    "pages/rural/rural",
+    "pages/mine/mine"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#fff",
+    "backgroundTextStyle": "light",
+    "pageOrientation": "portrait"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#4b5563",
+    "selectedFontWeight": "bold",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/icons/home.png",
+        "selectedIconPath": "static/icons/home-fill.png"
+      },
+      {
+        "pagePath": "pages/wealth/wealth",
+        "text": "财富",
+        "iconPath": "static/icons/money collect.png",
+        "selectedIconPath": "static/icons/money collect-fill.png"
+      },
+      {
+        "pagePath": "pages/life/life",
+        "text": "生活",
+        "iconPath": "static/icons/shopping.png",
+        "selectedIconPath": "static/icons/shopping-fill.png"
+      },
+      {
+        "pagePath": "pages/rural/rural",
+        "text": "乡村振兴",
+        "iconPath": "static/icons/flag.png",
+        "selectedIconPath": "static/icons/flag-fill.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "static/icons/user.png",
+        "selectedIconPath": "static/icons/user-fill.png"
+      }
+    ]
+  },
+  "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

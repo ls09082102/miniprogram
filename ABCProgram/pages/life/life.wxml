@@ -1,0 +1,17 @@
+<!--index.wxml-->
+<view class="w-screen">
+  <!-- 顶部背景图片 -->
+  <image 
+    src="/static/images/life.png" 
+    mode="left" 
+    class="w-full"
+  />
+  <lineCard></lineCard>
+  
+  <!-- 其他内容可以放在这里 -->
+  <view class="container">
+    <scroll-view class="scrollarea" scroll-y type="list">
+      
+    </scroll-view>
+  </view>
+</view>

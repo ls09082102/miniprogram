@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<view class="w-screen h-screen">
+  <!-- 顶部背景图片 -->
+  <image 
+    src="/static/images/bg.jpeg" 
+    mode="left" 
+    class="w-full h-40"
+  />
+  <view class="-m-30">
+    <lineCard></lineCard>
+  </view>
+  <view class="w-full mt-30">
+    <listNav></listNav>
+  </view>
+</view>
